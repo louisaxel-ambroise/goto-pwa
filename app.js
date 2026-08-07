@@ -9,7 +9,6 @@ if (!("BarcodeDetector" in globalThis)) {
 	camera.style.display = "none";
 }
 else {
-
 	const barcodeDetector = new BarcodeDetector({ formats: ["qr_code"] });
 
 	navigator.mediaDevices.getUserMedia({ video: { facingMode: { exact: "environment" } } })

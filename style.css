@@ -16,6 +16,7 @@ main {
 	border-radius:20px 20px 0 0;
 	background:#fefefe;
 	width: 100%;
+	padding:10px 50px;
 	box-sizing: border-box;
 
 	& #result {
@@ -34,6 +35,21 @@ main {
 	& h1{
 		margin:50px 20px;
 		font-size:37px;
+	}
+	
+	& button {
+		min-height:45px;
+		margin:40px auto;
+		display:block;
+		min-width:90%;
+		padding:5px 20px;
+		border-radius:10px;
+		font-size:15px;
+		font-weight:700;
+	}
+	
+	& p {
+		line-height:1.75;
 	}
 }
 

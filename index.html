@@ -32,7 +32,7 @@
 		</menu>
 		<main>
 			<h1>GOTO - DigitalLink</h1>
-			
+			<p>Scan your daily products' QR codes and get always up to date informations on them using GOTO scan app!</p>
 			<button id="notifications">Allow notifications</button>
 		</main>
 	</body>
@@ -51,10 +51,9 @@
 		});
 		
 		function randomNotification() {
-		  const randomItem = Math.floor(Math.random() * games.length);
-		  const notifTitle = games[randomItem].name;
-		  const notifBody = `Created by ${games[randomItem].author}.`;
-		  const notifImg = `data/img/${games[randomItem].slug}.jpg`;
+		  const notifTitle = "Don't forget to swan QR codes!";
+		  const notifBody = `GOTO helps you!`;
+		  const notifImg = `data/img/qr.png`;
 		  const options = {
 			body: notifBody,
 			icon: notifImg,

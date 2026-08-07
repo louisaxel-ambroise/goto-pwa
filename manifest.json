@@ -2,7 +2,7 @@
   "lang": "en",
   "name": "GOTO",
   "short_name": "GOTO",
-  "start_url": "/",
+  "start_url": "./",
   "description": "Digital Link scanner app",
   "theme_color": "#eeffee",
   "background_color": "#eeffee",

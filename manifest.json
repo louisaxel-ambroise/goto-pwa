@@ -7,7 +7,7 @@
   "theme_color": "#eeffee",
   "background_color": "#eeffee",
   "orientation": "portrait",
-  "display": "standalone",
+  "display": "fullscreen",
   "icons": [
     {
       "src": "icons/logo.png",

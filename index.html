@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width" />
+		<meta name="lang" content="en" />
+		<meta name="description" content="Free Open Source GS1 Digital Link Resolver" />
+		<meta name="keywords" content=".NET, GS1, DigitalLink, DPP, Open Source" />
+		<link rel="icon" href="icons/logo.png" />
+		<link rel="manifest" href="manifest.json" crossorigin="use-credentials" />
+		<meta name="application-name" content="GOTO">
+		<title>GOTO</title>
+		<link rel="preload" href="https://fonts.bunny.net/css?family=golos-text:400|golos-text:600" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+		<nav>
+			<a href="#"><div class="icon-chevron-left"></div></a>
+			<a href="#">Scan</a>
+			<a href="#"><div class="icon-ellipsis"></div></a>
+		</nav>
+		<menu>
+			<a href="#"><div class="icon-house"></div><br />Home</a>
+			<a href="#"><div class="icon-qr-code"></div><br />Scan</a>
+			<a href="#"><div class="icon-menu"></div><br />Menu</a>
+		</menu>
+		<main>
+			<video class="camera" muted autoplay="autoplay"></video>
+			<div id="result"></div>
+		</main>
+	</body>
+	<script src="https://unpkg.com/lucide@latest" defer></script>
+	<script src="app.js" defer></script>
+	<script>
+		if ("serviceWorker" in navigator) {
+			navigator.serviceWorker.register("sw.js");
+		}
+	</script>
+</html>

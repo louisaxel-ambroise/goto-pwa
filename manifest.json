@@ -1,0 +1,22 @@
+{
+  "lang": "en",
+  "name": "GOTO",
+  "short_name": "GOTO",
+  "start_url": "/",
+  "description": "Digital Link scanner app",
+  "theme_color": "#eeffee",
+  "background_color": "#eeffee",
+  "orientation": "portrait",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icons/logo.png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "icons/icon_150x150.png",
+      "sizes": "150x150 192x192 512x512",
+      "purpose": "any"
+    }
+  ]
+}

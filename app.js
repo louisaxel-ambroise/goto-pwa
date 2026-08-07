@@ -1,7 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
-	lucide.createIcons();
-});
-
 const version = "v0.0.13";
 const dest = document.getElementById("result");
 const camera = document.getElementsByClassName("camera")[0];

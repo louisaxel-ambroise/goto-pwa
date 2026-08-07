@@ -30,6 +30,11 @@ main {
 		height: calc(100vw*4/3);
 		object-fit: cover;
 	}
+	
+	& h1{
+		margin:50px 20px;
+		font-size:37px;
+	}
 }
 
 nav {

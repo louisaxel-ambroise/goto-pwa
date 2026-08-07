@@ -13,7 +13,7 @@ body{
 }
 
 main {
-	border-radius:30px 30px 0 0;
+	border-radius:20px 20px 0 0;
 	background:#fefefe;
 	width: 100%;
 	box-sizing: border-box;
@@ -33,9 +33,8 @@ main {
 }
 
 nav {
-	min-height: 50px;
-	line-height: 50px;
-	margin-top:10px;
+	min-height: 40px;
+	line-height: 40px;
 	color:#fefefe;
 	
 	display: flex;
@@ -55,14 +54,15 @@ menu {
 	font-size:90%;
 	left: 0;
 	bottom: 0;
-	border-top: 2px solid #888;
+	border-top: 2px solid #eaeaea;
 	width: 100%;
 	display: flex;
-	background:#eee;
+	background:linear-gradient(to bottom, #eee, #dedede);
 	justify-content: space-between;
 
 	& a {
 		width: 30%;
+		font-weight:700;
 		text-align: center;
 		color:#202020;
 		text-decoration:none;

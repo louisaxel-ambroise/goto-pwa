@@ -1,18 +1,21 @@
 * {
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
+	overflow-x:hidden;
 }
 
 body{
+	overscroll-behavior-y: none;
 	font-display:optional;
 	font-family: 'Golos Text', sans-serif;
 	height:100vh;
+	background: linear-gradient(to bottom, #020202, #020202 100px, #fefefe 100px);	
 }
 
 main {
+	border-radius:30px 30px 0 0;
+	background:#fefefe;
 	width: 100%;
-	height: calc(100vh - 40px);
 	box-sizing: border-box;
 
 	& #result {
@@ -30,22 +33,26 @@ main {
 }
 
 nav {
-	height: 50px;
+	min-height: 50px;
 	line-height: 50px;
-	background: linear-gradient(to bottom, #ddd, #fff);	
+	margin-top:10px;
+	color:#fefefe;
+	
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
 	
 	& a {
-		color:#202020;
+		color:#fefefe;
+		font-weight:600;
 		text-decoration:none;
 	}
 }
 
 menu {
 	position: absolute;
-	height: 80px;
+	height: 70px;
+	font-size:90%;
 	left: 0;
 	bottom: 0;
 	border-top: 2px solid #888;

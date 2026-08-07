@@ -10,9 +10,9 @@ let scannedValues = [];
 
 if (!("BarcodeDetector" in globalThis)) {
 	dest.innerHTML = "Barcode Detector is not supported by this browser.";
+	camera.style.display = "none";
 }
 else {
-	dest.innerHTML = "Barcode Detector supported! " + version;
 
 	const barcodeDetector = new BarcodeDetector({ formats: ["qr_code"] });
 

@@ -4,8 +4,8 @@
   "short_name": "GOTO",
   "start_url": "./",
   "description": "Digital Link scanner app",
-  "theme_color": "#eeffee",
-  "background_color": "#eeffee",
+  "theme_color": "#020202",
+  "background_color": "#020202",
   "orientation": "portrait",
   "display": "fullscreen",
   "icons": [
